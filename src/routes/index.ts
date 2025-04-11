@@ -14,4 +14,8 @@ router.get('/hooh', (req, res) => {
     res.send("hooh");
 });
 
+router.get('/home', (req, res) => {
+    res.send("homeeee");
+});
+
 export default router;
