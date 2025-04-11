@@ -18,4 +18,8 @@ router.get('/home', (req, res) => {
     res.send("homeeee");
 });
 
+router.get('/tets', (req, res) => {
+    res.send("test");
+});
+
 export default router;
