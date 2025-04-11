@@ -10,4 +10,8 @@ router.get('/lorem', (req, res) => {
     res.send("lorem ipsum dolor sit amet take me back to the night we met");
 });
 
+router.get('/home', (req, res) => {
+    res.send("homeeee");
+});
+
 export default router;
